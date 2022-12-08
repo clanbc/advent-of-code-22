@@ -5,7 +5,7 @@ def main():
 
     total_priorities = 0
     for i in range(0, len(content), 3):
-        group = content[i: i + 3]
+        group = content[i : i + 3]  # noqa:E203
         common = (
             "".join(set(group[0]).intersection(group[1]).intersection(group[2]))
             .rstrip()
