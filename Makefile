@@ -11,7 +11,7 @@ help:
 
 fmt:
 	@printf "\n${BOLD}${MAGENTA}***RUNNING FORMAT***${RESET}\n\n"
-	black solutions
+	black ./
 
 lint:
 	@printf "\n${BOLD}${MAGENTA}***RUNNING LINTER***${RESET}\n\n"
