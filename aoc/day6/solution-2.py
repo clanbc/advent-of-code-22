@@ -9,6 +9,7 @@ def check_unique(str):
 def main():
     with open("input.txt") as f:
         content = f.read()
+        f.close()
 
         char_total = 14
         for char in content:

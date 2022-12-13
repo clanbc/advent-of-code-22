@@ -1,7 +1,7 @@
 def main():
     with open("input.txt") as f:
         content = f.readlines()
-        f.close
+        f.close()
 
     total_duplication = 0
     for line in content:
